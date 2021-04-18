@@ -1,0 +1,44 @@
+<table class="content" width="100%" cellspacing="0" cellpadding="0" style="TABLE-LAYOUT: fixed;WORD-WRAP: break-word" align="center">
+              <tr> 
+                <td align="left" class="content_word" id="read_tpc"><font id="zoom" face="宋体"><span id="post1">
+                  <div style="float:left;"><script type="text/javascript">
+    (function() {
+        var s = "_" + Math.random().toString(36).slice(2);
+        document.write('<div style="" id="' + s + '"></div>');
+        (window.slotbydup = window.slotbydup || []).push({
+            id: "u3596939",
+            container:  s
+        });
+    })();
+</script>
+<!-- 多条广告如下脚本只需引入一次 -->
+<script type="text/javascript" src="//cpro.baidustatic.com/cpro/ui/c.js" async="async" defer></script>
+</div>
+		<br>		  
+		入门简介 　 　 <br>变量 <a href="http://www.cppentry.com" style="text-decoration:underline;font-size:14px;color:#F70968;" target="_blank">C++</a>(www.cppentry.com)<a href="https://www.cppentry.com/" style="text-decoration:underline;font-size:14px;color:#F70968;" target="_blank">数据</a>类型 <a href="http://www.cppentry.com" style="text-decoration:underline;font-size:14px;color:#F70968;" target="_blank">C++</a>(www.cppentry.com)操作符 C++(www.cppentry.com)中的函数 main函数 数组 字符串数组 字符串操作函数 <br><br>C++(www.cppentry.com)
+是个强大的语言，可以用于做别的语言做不了的工作。但是，这种强大功能是有代价的。开始使用C++(www.cppentry.com)时，你可能会遇到内存溢出和访问失效等问题，使程序死
+机。这里用最简短的篇幅介绍C++(www.cppentry.com)语言基础。C++(www.cppentry.com)语言本身有专著介绍，这种书还特别厚，所以别指望我能用三言两语说清楚。读者学完本书并使用C++(www.cppentry.com) 
+Builder一般时间之后，最后对C++(www.cppentry.com)语言再作更深入的了解。 <br><br>C++(www.cppentry.com)可以最充分地利用面向对象<a href="http://www.cppentry.com" style="text-decoration:underline;font-size:14px;color:#F70968;" target="_blank">编程</a>(www.cppentry.com)(OOP)的优势。OOP不只是
+一个新名词，而有它的实际意义，可以生成可复用的对象。新术语 
+对象(object)，和前面介绍的构件一样，是完成特定<a href="http://www.cppentry.com" style="text-decoration:underline;font-size:14px;color:#F70968;" target="_blank">编程</a>(www.cppentry.com)任务的软件块（构件是对象，但对象不全是构件，稍后会解释这点）。对象只向用户（使用对象的
+编程(www.cppentry.com)人员）显示必须的部分，从而简化对象的使用。用户不必知道的所有内部机制都隐藏在幕后。这一切都包括在面向对象编程(www.cppentry.com)的概念中。OOP可以用模块化方法
+进行编程(www.cppentry.com)，从而避免每次从头开始。C++(www.cppentry.com) Builder程序是面向OOP的，因为C++(www.cppentry.com) Builder大量使用构件。生成构件后（你生成的或C++(www.cppentry.com) 
+Builder内置的构件），就可以在任何C++(www.cppentry.com) 
+Builder程序中重复使用。构件还可以扩展，通过继承生成具有新功能的新构件。最妙的是，构件隐藏了所有内容细节，使编程(www.cppentry.com)人员能集中精力充分利用构
+件。 <br><br>入门简介 <br>在C++(www.cppentry.com)之前先有C语言，C++(www.cppentry.com)是建立在C语言之上的，称为“带类的C语言”。这个C语言基础在当今的C++(www.cppentry.com)程
+序中仍然很重要。C++(www.cppentry.com)并不是取代C，而是补充和支持C。本章余下部分和下几章主要介绍C++(www.cppentry.com)中来源于C语言的部分。实际上，这里介绍的是C语言，第2
+课"C++(www.cppentry.com)基础"中才转入C++(www.cppentry.com)。读者不必关心哪个来自C，哪个来自C++(www.cppentry.com)，因为这些全在C++(www.cppentry.com)中。C++(www.cppentry.com)语言很难按顺序介绍，因为我们要介绍的所有特性
+都是交叉的。我准备的一次介绍一块，然后拼凑起来。到第3课"高级C++(www.cppentry.com)"结束，你将对C++(www.cppentry.com)语言有个完整的了解。一下子没有掌握某个概念也没关系，有些
+概念必须经过实践才能完全了解。 <br><br>变量 <br>还是从变量讲起来吧。变量(variable)实际上是赋予内存地址的名称。声明变量后，就可以用它操作内存中的<a href="https://www.cppentry.com/" style="text-decoration:underline;font-size:14px;color:#F70968;" target="_blank">数据</a>。下面举几个例子进行说明。下列码段用了两个变量，每条语句末尾用说明语句描述执行该语句时发生的情况： <br>int x;// variable declared as an integer variable <br>x = 100;// 'x' now contains the value 100 <br>x +=50;// 'x' now contains the value 150 <br>int y = 150;// 'y' declared and initialized to 150 <br>x += y;// 'x' now contains the value 300 <br>x++;// 'x' now contains the value 301 <br>新术语 变量(variable)是留作存放某个数值的计算机内存地址。注意x的值在变量操作时会改变，稍后会介绍操作变量的C++(www.cppentry.com)操作符。警告 声明而未初始化的变量包含随机值。由于变量所指向的内存还没有初始化，所以不知道该内存地址包含什么值。 <br>例如，下列代码 <br>int k; <br>int y; <br>x=y+10; //oops! <br>本
+例中变量y没有事先初始化，所以x可能取得任何值。例外的情况是全局变量和用static修饰声明的变量总是初始化为0。而所有其它变量在初始化或赋值之
+前包含随机值。变量名可以混合大写、小写字母和数字与下划线（_），但不能包含空格和其它特殊字符。变量名必须以字母或下划线开始。一般来说，变量名以下
+划线或双下划线开始不好。变量名允许的最大长度随编译器的不同而不同。如果变量名保持在32个字符以下，则绝对安全。实际中，任何超过20个字符的变量名
+都是不实用的。 <br>下例是有效变量名的例子： <br>int aVeryLongVariableName;// a long variable name <br>int my_variable;// a variable with an underscore <br>int_ x;// OK,but not advisedint X;// uppercase variable name <br>int Labe12;// a variable name containing a number <br>int GetItemsInContainer(); // thanks Pete! <br>说明 C++(www.cppentry.com)中的变量名是考虑大小写的，下列变量是不同的：int XPos;int xpos;如果你原先所用语言不考虑大小写（如Pascal)，则开始接触考虑大小写的语言可能不太适应。 <br>C++(www.cppentry.com)数据类型 <br>新术语 
+C++(www.cppentry.com)数据类型定义编译器在内存中存放信息的方式。在有些编程(www.cppentry.com)语言中，可以向变量赋予任何数值类型。例如，下面是BASIC代码的例子：x = 1;  
+		<p> 请关注公众号获取更多资料</p>
+		<p> <img src="https://www.cppentry.com/images/mp.jpg"> </p>
+		<br><a href="https://www.cppentry.com/bencandy.php?fid=49&amp;id=714" target="_blank"> C++ 语言基础(1)(一) https://www.cppentry.com/bencandy.php?fid=49&amp;id=714 </a>
+		<br><a href="https://jq.qq.com/?_wv=1027&amp;k=5umE9MB"><img src="https://bizapp.qq.com/webimg/01_online.gif"></a>
+		<br></span></font></td>
+              </tr>
+            </table>

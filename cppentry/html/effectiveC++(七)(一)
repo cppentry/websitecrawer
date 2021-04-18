@@ -1,0 +1,38 @@
+<table class="content" width="100%" cellspacing="0" cellpadding="0" style="TABLE-LAYOUT: fixed;WORD-WRAP: break-word" align="center">
+              <tr> 
+                <td align="left" class="content_word" id="read_tpc"><font id="zoom" face="宋体"><span id="post1">
+                  <div style="float:left;"><script type="text/javascript">
+    (function() {
+        var s = "_" + Math.random().toString(36).slice(2);
+        document.write('<div style="" id="' + s + '"></div>');
+        (window.slotbydup = window.slotbydup || []).push({
+            id: "u3596939",
+            container:  s
+        });
+    })();
+</script>
+<!-- 多条广告如下脚本只需引入一次 -->
+<script type="text/javascript" src="//cpro.baidustatic.com/cpro/ui/c.js" async="async" defer></script>
+</div>
+		<br>		  
+		<h2>条款7：预先准备好内存不够的情况</h2><p> </p>
+<p>operator new在无法完成内存分配请求时会抛出异常(以前的做法一般是返回0，一些旧一点的编译器还这么做。你愿意的话也可以把你的编译器设置成这样。关于这个话题我将推迟到本条款的结尾处讨论)。大家都知道，处理内存不够所产生的异常真可以算得上是个道德上的行为，但实际做起来又会象刀架在脖子上那样痛苦。所以，你有时会不去管它，也许一直没去管它。但你心里一定还是深深地隐藏着一种罪恶感：万一new真的产生了异常怎么办？</p>
+<p>你会很自然地想到处理这种情况的一种方法，即回到以前的老路上去，使用预处理。例如，c的一种常用的做法是，定义一个类型无关的宏来分配内存并检查分配是否成功。对于c++来说，这个宏看起来可能象这样： </p>
+<p> </p>
+#define new(ptr, type)		\
+try { (ptr) = new type; }	\
+catch (std::bad_alloc&amp;) { assert(0); }
+<p>（“慢！std::bad_alloc是做什么的？”你会问。bad_alloc是operator new不能满足内存分配请求时抛出的异常类型，std是bad_alloc所在的名字空间(见<a href="https://www.cppentry.com/admin/ch07c.htm">条款28</a>)的名称。“好！”你会继续问，“assert又有什么用？”如果你看看标准c头文件&lt;assert.h&gt;(或与它相等价的用到了名字空间的版本&lt;cassert&gt;，见<a href="https://www.cppentry.com/admin/ch12e.htm">条款49</a>)，就会发现assert是个宏。这个宏检查传给它的表达式是否非零，如果不是非零值，就会发出一条出错信息并调用abort。assert只是在没定义标准宏ndebug的时候，即在调试状态下才这么做。在产品发布状态下，即定义了ndebug的时候，assert什么也不做，相当于一条空语句。所以你只能在调试时才能检查断言(assertion)）。</p>
+<p>new宏不但有着上面所说的通病，即用assert去检查可能发生在已发布程序里的状态(然而任何时候都可能发生内存不够的情况)，同时，它还在c++里有另外一个缺陷：它没有考虑到new有各种各样的使用方式。例如，想创建类型t对象，一般有三种常见的语法形式，你必须对每种形式可能产生的异常都要进行处理： </p>
+<p> </p>
+new t;
+new t(constructor arguments);
+new t[size];
+<p>这里对问题大  
+		</p><p> 请关注公众号获取更多资料</p>
+		<p> <img src="https://www.cppentry.com/images/mp.jpg"> </p>
+		<br><a href="https://www.cppentry.com/bencandy.php?fid=49&amp;id=634" target="_blank"> effectiveC++(七)(一) https://www.cppentry.com/bencandy.php?fid=49&amp;id=634 </a>
+		<br><a href="https://jq.qq.com/?_wv=1027&amp;k=5umE9MB"><img src="https://bizapp.qq.com/webimg/01_online.gif"></a>
+		<br></span></font></td>
+              </tr>
+            </table>

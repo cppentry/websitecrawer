@@ -1,0 +1,25 @@
+<table class="content" width="100%" cellspacing="0" cellpadding="0" style="TABLE-LAYOUT: fixed;WORD-WRAP: break-word" align="center">
+              <tr> 
+                <td align="left" class="content_word" id="read_tpc"><font id="zoom" face="宋体"><span id="post1">
+                  <div style="float:left;"><script type="text/javascript">
+    (function() {
+        var s = "_" + Math.random().toString(36).slice(2);
+        document.write('<div style="" id="' + s + '"></div>');
+        (window.slotbydup = window.slotbydup || []).push({
+            id: "u3596939",
+            container:  s
+        });
+    })();
+</script>
+<!-- 多条广告如下脚本只需引入一次 -->
+<script type="text/javascript" src="//cpro.baidustatic.com/cpro/ui/c.js" async="async" defer></script>
+</div>
+		<br>		  
+		一、C语言的产生与发展<br> C语言是1972年由美国的Dennis Ritchie设计发明的,并首次在UNIX操作系统的 DECPDP-11 计算机上使用。它由早期的<a href="http://www.cppentry.com" style="text-decoration:underline;font-size:14px;color:#F70968;" target="_blank">编程</a>(www.cppentry.com)语言BCPL (Basic Combind ProgrammingLanguage)发展演变而来。在1970年,AT&amp;T贝尔实验室的Kenhompson根据BCPL语言设计出较先进的并取名为B的语言,最后导致了C语言的问世。 <br>    随着微型计算机的日益普及,出现了许多C语言版本。由于没有统一的标准, 使得这些C语言之间出现了一些不一致的地方。为了改变这种情况,美国国家标准研究所(ANSI)为C语言制定了一套ANSI标准,成为现行的C语言标准。<br><br>二、C语言的特点 <br>    C语言发展如此迅速, 而且成为最受欢迎的语言之一,主要因为它具有强大的功能。许多著名的系统软件, 如PC-DOS,DBASE Ⅳ都是由C语言编写的。用C语言加上一些汇编语言子程序, 就更能显示C语言的优势了。归纳起来C语言具有下列特点: <br>        1. C是中级语言<br>           它把高级语言的基本结构和语句与低级语言的实用性结合起来。C语言可以象汇编语言一样对位、字节和地址进行操作,而这三者是计算机最基本的工作单元。<br>        2. C是结构式语言<br>结构式语言的显著特点是代码及<a href="https://www.cppentry.com/" style="text-decoration:underline;font-size:14px;color:#F70968;" target="_blank">数据</a>的分隔化,即程序的各个部分除了必要的信息交流外彼此独立。这种结构化方式可使程序层次清晰,便于使用、维护以及调试。C 语言是以函数形式提供给用户的,这些函数可方便的调用,并具有多种循环、条件语句控制程序流向,从而使程序完全结构化。<br>        3. C语言功能齐全<br>           C语言具有各种各样的<a href="https://www.cppentry.com/" style="text-decoration:underline;font-size:14px;color:#F70968;" target="_blank">数据</a>类型,并引入了<a href="https://www.cppentry.com" style="text-decoration:underline;font-size:14px;color:#F70968;" target="_blank">指针</a>概念,可使程序效率更高。另外C语言也具有强大的图形功能,支持多种显示器和驱动器。而且计算功能、逻辑判断功能也比较强大,可以<a href="https://www.cppentry.com/" style="text-decoration:underline;font-size:14px;color:#F70968;" target="_blank">实现</a>决策目的。 <br>        4. C语言适用范围大 <br>           C语言还有一个突出的优点就是适合于多种操作系统,如DOS、UNIX,也适用于多种机型。<br><br>三、Turbo C的产生与发展 <br>我们平常用的大部分都是Turbo C。TurboC是美国Borland公司的产品,Borland公司是一家专门从事软件开发、研制的公司。该公司相继推出了一套Turbo系列软件,如TurboBASIC,Turbo Pascal,Turbo Prolog,这些软件很受用户欢迎。该公司在1987年首次推出Turbo C1.0产品,其中使用了全然一新的集成开发环境,即使用了一系列下拉式菜单,将文本编辑、程序编译、连接以及程序运行一体化,大大方便了程序的开发。1988年,Borland公司又推出Turbo C 1.5版本,增加了图形库和文本窗口函数库等,而Turbo C 2.0则是该公司1989年出版的。Turbo C2.0在原来集成开发环境的基础上增加了查错功能,并可以在Tiny模式下直接生成.COM(数据、代码、堆栈处在同一64K中)文件。还可对数学协处理器(支持8087/80287/80387等)进行仿真。我们目前经常使用的集成环境就是Turbo C 2.0。<br>    Borland 公司后来又推出了面向对象的程序软件包Turbo <a href="http://www.cppentry.com" style="text-decoration:underline;font-size:14px;color:#F70968;" target="_blank">C++</a>(www.cppentry.com),它继承发展Turbo C 2.0的集成开发环境, 并包含了面向对象的基本思想和设计方法。习惯上我们也叫它Turbo C 3.0。<br>    1991年为了适用Microsoft公司的Windows 3.0版本,Borland公司又将Turbo <a href="http://www.cppentry.com" style="text-decoration:underline;font-size:14px;color:#F70968;" target="_blank">C++</a>(www.cppentry.com)作了更新,即Turbo C的新一代产品Borlandc C++(www.cppentry.com)也已经问世了。<br>  
+		<p> 请关注公众号获取更多资料</p>
+		<p> <img src="https://www.cppentry.com/images/mp.jpg"> </p>
+		<br><a href="https://www.cppentry.com/bencandy.php?fid=45&amp;id=2748" target="_blank"> C语言入门教程 (一) 概述 上 https://www.cppentry.com/bencandy.php?fid=45&amp;id=2748 </a>
+		<br><a href="https://jq.qq.com/?_wv=1027&amp;k=5umE9MB"><img src="https://bizapp.qq.com/webimg/01_online.gif"></a>
+		<br></span></font></td>
+              </tr>
+            </table>

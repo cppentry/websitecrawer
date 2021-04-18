@@ -8,7 +8,7 @@
 import codecs
 class CppentryPipeline(object):
     def process_item(self, item, spider):
-        f=codecs.open("/data/html/"+item['title'],"wb",'utf-8') 
+        f=codecs.open("/home/github/websitecrawer/cppentry/html/"+item['title'],"wb",'utf-8') 
         f.write(item['content'])
         f.close()
         return item

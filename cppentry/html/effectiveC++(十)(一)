@@ -1,0 +1,38 @@
+<table class="content" width="100%" cellspacing="0" cellpadding="0" style="TABLE-LAYOUT: fixed;WORD-WRAP: break-word" align="center">
+              <tr> 
+                <td align="left" class="content_word" id="read_tpc"><font id="zoom" face="宋体"><span id="post1">
+                  <div style="float:left;"><script type="text/javascript">
+    (function() {
+        var s = "_" + Math.random().toString(36).slice(2);
+        document.write('<div style="" id="' + s + '"></div>');
+        (window.slotbydup = window.slotbydup || []).push({
+            id: "u3596939",
+            container:  s
+        });
+    })();
+</script>
+<!-- 多条广告如下脚本只需引入一次 -->
+<script type="text/javascript" src="//cpro.baidustatic.com/cpro/ui/c.js" async="async" defer></script>
+</div>
+		<br>		  
+		<h2>条款10: 如果写了operator new就要同时写operator delete</h2><p> </p>
+<p>让我们回过头去看看这样一个基本问题：为什么有必要写自己的operator new和operator delete？</p>
+<p>答案通常是：为了效率。缺省的operator new和operator delete具有非常好的通用性，它的这种灵活性也使得在某些特定的场合下，可以进一步改善它的性能。尤其在那些需要动态分配大量的但很小的对象的应用程序里，情况更是如此。</p>
+<p>例如有这样一个表示飞机的类：类airplane只包含一个<a href="https://www.cppentry.com" style="text-decoration:underline;font-size:14px;color:#F70968;" target="_blank">指针</a>，它指向的是飞机对象的实际描述(此技术在条款34进行说明)：</p>
+<p>class airplanerep { ... };      // 表示一个飞机对象<br>
+                                // <br>
+class airplane {<br>
+public:<br>
+  ...<br>
+private:<br>
+  airplanerep *rep;             // 指向实际描述<br>
+};</p>
+<p>一个airplane对象并不大，它只包含一个<a href="https://www.cppentry.com" style="text-decoration:underline;font-size:14px;color:#F70968;" target="_blank">指针</a>（正如条款14和m24所说明的，如果airplane类声明了虚函数，会隐式包含第二个指针）。但当调用operator new来分配一个airplane对象时，得到的内存可能要比存储这个指针（或一对指针）所需要的要多。之所以会产生这种看起来很奇怪的行为，在于operator new和operator delete之间需要互相传递信息。</p>
+<p>因为缺省版本的operator new是一种通用型的内存分配器，它必须可以分配任意大小的内存块。同样，operator delete也要可以释放任意大小的内存块。operator delete想弄清它要释放的内存有多大，就必须知道当初oper  
+		</p><p> 请关注公众号获取更多资料</p>
+		<p> <img src="https://www.cppentry.com/images/mp.jpg"> </p>
+		<br><a href="https://www.cppentry.com/bencandy.php?fid=49&amp;id=637" target="_blank"> effectiveC++(十)(一) https://www.cppentry.com/bencandy.php?fid=49&amp;id=637 </a>
+		<br><a href="https://jq.qq.com/?_wv=1027&amp;k=5umE9MB"><img src="https://bizapp.qq.com/webimg/01_online.gif"></a>
+		<br></span></font></td>
+              </tr>
+            </table>

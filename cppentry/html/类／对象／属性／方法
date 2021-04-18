@@ -1,0 +1,126 @@
+<table class="content" width="100%" cellspacing="0" cellpadding="0" style="TABLE-LAYOUT: fixed;WORD-WRAP: break-word" align="center">
+              <tr> 
+                <td align="left" class="content_word" id="read_tpc"><font id="zoom" face="宋体"><span id="post1">
+                  <div style="float:left;"><script type="text/javascript">
+    (function() {
+        var s = "_" + Math.random().toString(36).slice(2);
+        document.write('<div style="" id="' + s + '"></div>');
+        (window.slotbydup = window.slotbydup || []).push({
+            id: "u3596939",
+            container:  s
+        });
+    })();
+</script>
+<!-- 多条广告如下脚本只需引入一次 -->
+<script type="text/javascript" src="//cpro.baidustatic.com/cpro/ui/c.js" async="async" defer></script>
+</div>
+		<br>		  
+		<dd id="Article">
+  A类 
+ <div>
+   
+ </div> 
+ <div>
+   
+ </div> 
+ <div>
+   
+ </div> 
+ <div>
+  A类的属性
+ </div> 
+ <div>
+   
+ </div> 
+ <div>
+  @property(nonatomic,strong)NSString *themeName;
+ </div> 
+ <div>
+   
+ </div> 
+ <div>
+  这个themeName是这个类的属性，但是themeName是NSString的一个对象
+ </div> 
+ <div>
+   
+ </div> 
+ <div>
+  －－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+ </div> 
+ <div>
+   
+ </div> 
+ <div>
+  A类的方法
+ </div> 
+ <div>
+   
+ </div> 
+ <div>
+  -(void)logIn:(UIBarButtonItem *)buttonItem；
+ </div> 
+ <div>
+  -(void)logOut；
+ </div> 
+ <div>
+   
+ </div> 
+ <div>
+   
+ </div> 
+ <div>
+  －－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+ </div> 
+ <div>
+   
+ </div> 
+ <div>
+  实例化A类的一个对象a
+ </div> 
+ <div>
+   
+ </div> 
+ <div>
+  A ＊a = [[A   alloc] init];
+ </div> 
+ <div>
+   
+ </div> 
+ <div>
+  a.themeName = @"willingseal";
+ </div> 
+ <div>
+   
+ </div> 
+ <div>
+  [a logOut ];
+ </div> 
+ <div>
+   
+ </div> 
+ <div>
+   
+ </div> 
+ <div>
+   
+ </div> 
+ <div>
+   
+ </div> 
+ <div>
+   
+ </div> 
+ <div>
+   
+ </div> 
+ <div>
+   
+ </div> 
+</dd>  
+		<p> 请关注公众号获取更多资料</p>
+		<p> <img src="https://www.cppentry.com/images/mp.jpg"> </p>
+		<br><a href="https://www.cppentry.com/bencandy.php?fid=45&amp;id=19782" target="_blank"> 类／对象／属性／方法 https://www.cppentry.com/bencandy.php?fid=45&amp;id=19782 </a>
+		<br><a href="https://jq.qq.com/?_wv=1027&amp;k=5umE9MB"><img src="https://bizapp.qq.com/webimg/01_online.gif"></a>
+		<br></span></font></td>
+              </tr>
+            </table>

@@ -1,0 +1,25 @@
+<table class="content" width="100%" cellspacing="0" cellpadding="0" style="TABLE-LAYOUT: fixed;WORD-WRAP: break-word" align="center">
+              <tr> 
+                <td align="left" class="content_word" id="read_tpc"><font id="zoom" face="宋体"><span id="post1">
+                  <div style="float:left;"><script type="text/javascript">
+    (function() {
+        var s = "_" + Math.random().toString(36).slice(2);
+        document.write('<div style="" id="' + s + '"></div>');
+        (window.slotbydup = window.slotbydup || []).push({
+            id: "u3596939",
+            container:  s
+        });
+    })();
+</script>
+<!-- 多条广告如下脚本只需引入一次 -->
+<script type="text/javascript" src="//cpro.baidustatic.com/cpro/ui/c.js" async="async" defer></script>
+</div>
+		<br>		  
+		<p style="text-align:left;">    这里我们提出一种游戏循环的概念，游戏循环是将原先程序中的消息循环加以修改，方法是判断其中的内容目前是否有要处理的消息，如果有则进行处理，否则按照设定的时间间隔来重绘画面。下面是接下来一段游戏循环的程序代码：<br>    <br>    //游戏循环<br>    <br>    while（ msg.message!=WM_QUIT ）               //注释点1（详细内容见下）<br>    <br>    {<br>    <br>    if（ PeekMessage（ &amp;msg, NULL, 0,0 ,PM_REMOVE） ）       //注释点2（详细内容见下）<br>    <br>    {<br>    <br>    TranslateMessage（ &amp;msg ）；<br>    <br>    DispatchMessage（ &amp;msg ）；<br>    <br>    }<br>    <br>    else<br>    <br>    {<br>    <br>    tNow = GetTickCount（）；                        //注释点3<br>    <br>    if（tNow-tPre &gt;= 100）                   //注释点4<br>    <br>    MyPaint（hdc）；<br>    <br>    }<br>    <br>    }<br>    <br>    我们来讲解一下游戏循环片段中的几个重点。<br>    <br>    &lt;1&gt;注释点1:当收到的msg.message不是窗口结束消息WM_QUIT,则继续运行循环，其中msg是一个MSG的消息结构，其结构成员message则是一个消息类型的代号。<br>    <br>    &lt;2&gt;注释点2:使用PeekMessage（）函数来检测目前是否有需要处理的消息，若检测到消息（包含WM_QUIT消息）则会返回一个非“0”值，否则返回“0”.因此在游戏循环中，若检测到消息便进行消息的处理，否则运行else叙述之后的程序代码。这里我们要注意的是，PeekMessage（）函数不能用原先消息循环的条件GetMessage（）取代，因为GetMessage（）函数只有在取得WM_QUIT消息时才会返回“0”,其他时候则是返回非“0”值或“-1”（发生错误时）<br>    <br>    &lt;3&gt;注释点3:GetTickCount（）函数会取得系统开始运行到目前所经过的时间，单位是毫秒（milliseconds）。  之前我理解错了，在这里感谢worldy的指出我的错误。<br>    <br>    DWORD GetTickCount（）    //取得系统开始到目前经过的时间<br>    <br>    这里取得时间的目的主要是可以搭配接下来的判断式，用来调整游戏运行的速度，使得游戏不会因为运行计算机速度的不同而跑得太快或者太慢。</p><p align="center"><br></p>  
+		<p> 请关注公众号获取更多资料</p>
+		<p> <img src="https://www.cppentry.com/images/mp.jpg"> </p>
+		<br><a href="https://www.cppentry.com/bencandy.php?fid=49&amp;id=1613" target="_blank"> 基础动画显示游戏循环的使用(一) https://www.cppentry.com/bencandy.php?fid=49&amp;id=1613 </a>
+		<br><a href="https://jq.qq.com/?_wv=1027&amp;k=5umE9MB"><img src="https://bizapp.qq.com/webimg/01_online.gif"></a>
+		<br></span></font></td>
+              </tr>
+            </table>
